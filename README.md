@@ -19,6 +19,7 @@ Skeleton provides a great 960px grid, made of twelve columns. You'll notice in t
 ###Vertical grid: 
 All elements should have a height which is a multiple of 5px (like line-height 20px, or margin 5px, but not padding 8px). The only exception to this for now is the main image in the on the left (.eaLeftColumnContent img), which to keep it responsive with the page design and not lose the image's aspect ratio, has a variable height and width=100%. If anyone can sort this gracefully with javascript, it would be much appreciated! :-)
 
-
+## Pages come with jQuery 1.7.1
+Please take note that Engaging Networks will include jQuery 1.7.1 for their form validation scripts and things like that, so you don't need to include it again. Also, it's good to stick to jQuery (or plain vanilla javascript), and not include any other javascript frameworks.
 
 
