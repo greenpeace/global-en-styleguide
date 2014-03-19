@@ -7,6 +7,12 @@ Many Greenpeace offices are now (March 2014) starting to use Engaging Networks, 
 
 [Greenpeace Tiger Manifesto](https://act.greenpeace.org/ea-action/action?ea.client.id=1844&ea.campaign.id=26367)
 
+![Golden Rectangle over Tiger Manifesto page](http://i.imgur.com/EYioAoX.png)
+
+### Golden rectangle
+If you can keep the Call To Action to just a title and four lines max, you should find that the web form begins right in that Golden Rectangle sweet spot.
+
+
 ## Based on a standard CSS boilerplate
 
 The page design is based on [Skelton CSS boilerplate](http://getskeleton.com/). The [layout.css file](https://act.greenpeace.org/ea-campaign/action.retrievefile.do?ea_fileid=38501) is the only one you should need to edit. The CSS classes beginning with ".ea" are required to style the Engaging Networks form elements. Everything above and below the ```<div class="container">...</div>``` can be edited in the html. Engaging Networks fills in what's inside that DIV, so if you want to edit it, you'd better get out your javascript.
