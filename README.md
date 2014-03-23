@@ -7,7 +7,7 @@ Many Greenpeace offices are now (March 2014) starting to use Engaging Networks, 
 
 Engaging Networks campaign pages are made in a few steps, one of which is a drag-and-drop design step to put key page elements in place like form fields, the campaign story, photos or video players and a call-to-action headline. It's important that you use two columns on both the landing page and thanks/conversion page, and that on the left column there is only one design element ("Story - Tiger Manifesto" in the example below). 
 
-[2-column design for Greenpeace Tiger Manifesto page](http://i.imgur.com/xS7gqBV.png)
+![2-column design for Greenpeace Tiger Manifesto page](http://i.imgur.com/xS7gqBV.png)
 
 ## Demo
 
