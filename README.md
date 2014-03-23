@@ -3,6 +3,12 @@ act_styleguide
 
 Many Greenpeace offices are now (March 2014) starting to use Engaging Networks, and so a new webpage template was made for them to use for landing pages and conversion/thanks pages on act.greenpeace.org: "Plain Responsive Page Template (https/http)".
 
+## Design limitations
+
+Engaging Networks campaign pages are made in a few steps, one of which is a drag-and-drop design step to put key page elements in place like form fields, the campaign story, photos or video players and a call-to-action headline. It's important that you use two columns on both the landing page and thanks/conversion page, and that on the left column there is only one design element ("Story - Tiger Manifesto" in the example below). 
+
+[2-column design for Greenpeace Tiger Manifesto page](http://i.imgur.com/xS7gqBV.png)
+
 ## Demo
 
 [Greenpeace Tiger Manifesto](https://act.greenpeace.org/ea-action/action?ea.client.id=1844&ea.campaign.id=26367)
