@@ -18,6 +18,10 @@ Engaging Networks campaign pages are made in a few steps, one of which is a drag
 ### Golden rectangle
 If you can keep the Call To Action to just a title and four lines max, you should find that the web form begins right in that Golden Rectangle sweet spot.
 
+### Footer
+The page footer includes a mission statement and copyright notice on the left, and a row of website links on the right, with lots of (fresh green) white space all around.
+
+![Mission statement](http://i.imgur.com/eUyJdft.png)
 
 ## Based on a standard CSS boilerplate
 
