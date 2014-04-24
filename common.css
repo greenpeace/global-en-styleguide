@@ -1,0 +1,323 @@
+// this css file is stored on EN at https://act.greenpeace.org/ea-campaign/action.retrievefile.do?ea_fileid=38501
+
+
+/*
+* Basic responsive design template for Greenpeace based on common.css from Skeleton V1.2
+* Edited by Eoin (GPI) and Iain (EN).
+* See: www.getskeleton.com
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+
+/* hide things marked .hide */
+.hide {
+display:none;	
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+a:hover {
+color: #467f0d;	
+ }
+
+/* Greenpeace page header */
+.header {
+background-color:#6c0; 
+border-bottom: 1px solid #F8F8F8; 
+height: 60px;
+}
+.header img {
+margin-top: 15px;
+
+}
+
+.edit-email-notice {
+margin-top: 10px;	
+margin-bottom: 10px;
+}
+
+/* style the form */
+input[type=text],input[type=email],textarea,select,button, .eaform .eaSubmitButton{
+width:100%;	
+}
+
+/* style email to target */
+.edit-email {
+margin-top: 10px;	
+}
+
+
+/* primary buttons are orange */
+button,button:hover,.eaform .eaSubmitButton,.eaform .eaSubmitButton:hover {
+-moz-box-shadow:inset 0px 1px 0px 0px #ffb75e;
+-webkit-box-shadow:inset 0px 1px 0px 0px #ffb75e;
+box-shadow:inset 0px 1px 0px 0px #ffb75e;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f99513), color-stop(1, #e56c2b) );
+background:-moz-linear-gradient( center top, #f99513 5%, #e56c2b 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f99513', endColorstr='#e56c2b');
+background-color:#f99513;
+-webkit-border-top-left-radius:3px;
+-moz-border-radius-topleft:3px;
+border-top-left-radius:3px;
+-webkit-border-top-right-radius:3px;
+-moz-border-radius-topright:3px;
+border-top-right-radius:3px;
+-webkit-border-bottom-right-radius:3px;
+-moz-border-radius-bottomright:3px;
+border-bottom-right-radius:3px;
+-webkit-border-bottom-left-radius:3px;
+-moz-border-radius-bottomleft:3px;
+border-bottom-left-radius:3px;
+text-indent:0;
+border:1px solid #e56c2b;
+display:inline-block;
+color:#fff;
+font-size: 18px;
+line-height: 20px;
+text-decoration:none;
+text-align:center;
+text-shadow:1px 1px 0px #bf7113;
+}
+button,button:hover,.eaform .eaSubmitButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* input fields outlined Greenpeace green */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="checkbox"]:not(:disabled):hover,
+input[type="checkbox"]:active,
+input[type="checkbox"]:checked,
+select:focus,
+button:focus,
+button:active,
+textarea:focus,
+.eaform .eaSubmitButton:focus,
+.eaform .eaSubmitButton:active {
+	border: 1px solid #6c0;
+	color: #111;
+	-moz-box-shadow: 0 0 3px rgba(102, 204, 0,.2);
+	-webkit-box-shadow: 0 0 3px rgba(102, 204, 0,.2);
+	box-shadow:  0 0 3px rgba(102, 204, 0,.2); }
+
+
+h1,h2,h3,h4 {
+color:#6c0;
+font-family: Arial,Helvetica,sans-serif;
+}
+
+h1 { font-size: 28px; line-height: 30px; margin-bottom: 20px;}
+h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
+h3 { font-size: 28px; line-height: 30px; margin-bottom: 10px; }
+h4 { font-size: 21px; line-height: 30px; margin-bottom: 5px; }
+h5 { font-size: 17px; line-height: 20px; }
+h6 { font-size: 14px; line-height: 20px; }
+
+fieldset {
+margin:0;
+padding:0;	
+}
+
+
+body {
+font: 14px/20px Verdana, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+margin-top: 20px;
+padding-bottom: 20px;
+padding-top: 20px;
+background-color: #6c0;	
+color: #fff;
+font-size: 12px;
+}
+
+.footer a {
+margin-left: 10px;	
+color: #fff;
+}
+
+.footer strong {
+color: #fff;
+}
+.footer .right {
+text-align:right;
+}
+
+
+
+/**
+ *  additional styles from EN
+ **/
+
+.eaErrorMessage {
+	color: red;
+}
+
+.eaFormElementLabel {
+	display: none;
+}
+
+/* hide message elements on page unless link is clicked */
+
+.eaMessageContent {
+	min-height: 200px;
+}
+
+.eaFormElementLabel {
+	display: none;
+}
+
+.eaQuestionCheckbox label {
+	display: inline;
+}
+
+.eaLeftColumnContent {
+	width: 520px;
+    margin-top: 20px;
+}
+
+.eaLeftColumnContent img {
+	margin-bottom: 20px;
+    max-width: 100%;
+    width: auto;
+}
+
+.eaRightColumnContent {
+	width: 400px;
+    background-color: #eee;
+    padding-left: 20px;
+	padding-right: 20px;
+    padding-bottom: 0px;
+}
+
+.eaLeftColumnContent, .eaRightColumnContent {
+	float: left; display: inline; margin-left: 10px; margin-right: 10px;
+}
+
+.eaLeftColumnFiller {
+	display:none;
+}
+
+/* CTA header above the form */
+.eaRightColumnContent h2 {
+    color: #666666;
+    font-size: 18px;
+    line-height: 20px;
+	padding-top: 20px;
+}
+
+.eaSubmitResetButtonGroup {
+	float: right;
+	clear: right;
+	width: 400px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 20px;
+	background-color: #EEEEEE;
+}
+
+.eaSubmitResetButtonGroup input {
+	margin: 0;
+}
+
+.eaform {
+	margin-bottom: 0px;
+}
+
+#gpShowMessage {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	cursor:pointer;
+}
+
+
+/* display field labels inline for IE7 or IE8 */
+.ie8 .eaform .eaFormElementLabel, .ie7 .eaform .eaFormElementLabel {
+	display: inline;
+}
+
+
+/**
+ *  END - additional styles from EN
+ **/
+
+
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		.eaLeftColumnContent { width: 412px; margin-top: 20px; }
+		.eaRightColumnContent { width: 316px; }
+		.eaLeftColumnContent,.eaRightColumnContent { margin-left: 10px; margin-right: 10px;  }
+		.eaSubmitResetButtonGroup { width: 316px; }
+	}		
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		.eaLeftColumnContent { width: 300px; margin: 0; margin-top: 20px; }
+		.eaRightColumnContent { width: 300px; margin: 0;}
+		.eaSubmitResetButtonGroup { width: 300px; margin:0;}
+		.footer a {
+		display:block;	
+		}
+		.footer .right {
+		text-align:left;	
+		}		
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.eaLeftColumnContent { width: 420px; margin: 0; margin-top: 20px; }
+		.eaRightColumnContent { width: 420px; margin: 0;}
+		.eaSubmitResetButtonGroup { width: 420px; margin:0;}	
+	}
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
+
+
+
+
+
+
+
